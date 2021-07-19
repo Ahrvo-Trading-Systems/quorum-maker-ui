@@ -1,6 +1,6 @@
 <p-growl [value]="msgs"></p-growl>
 <div class="dashboard">
-    <div class="row">
+    <div class="row container-fluid">
         <div class="col-md-12">
             <div class="rect-block block-box-wrapper" [ngClass]="(isSelected == 'blockClass')?'active':''" (click)="isShowCont('getBlocks')">
                 <div class="rect-block-inner">
@@ -39,7 +39,7 @@
           </span>
         </div> -->
             </div>
-            <div class="ip-address" [ngClass]="(isSelected == 'ipClass')?'active':''" (click)="isShowCont('ipBlocks')">
+            <div class="ip-address" style="padding-top: 1vh;" [ngClass]="(isSelected == 'ipClass')?'active':''" (click)="isShowCont('ipBlocks')">
                 <div class="inner">
                     <h3>
                         <span>Total Contracts</span>
