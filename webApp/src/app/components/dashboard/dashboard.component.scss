@@ -5,6 +5,9 @@
     position: relative;
     margin-top: 15px;
     margin-bottom: 35px;
+    & > .row > .col-md-12 > div > div, .dashboard > .row > .col-md-12 > div {
+        height: 166px !important;
+    }
 }
 
 img {
